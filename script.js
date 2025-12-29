@@ -17,7 +17,7 @@ class Student extends Person {
 	    super(name, age);
 	  }
 	study(){
-		return `${this.name} is a studying.`;
+		return `${this.name} is studying.`;
 	}
 }
 
@@ -26,7 +26,7 @@ class Teacher extends Person {
     super(name, age);
   }
   teach(){
-    return `${this.name} is a teaching.`;
+    return `${this.name} is teaching.`;
   }
 }
 
